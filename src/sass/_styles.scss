@@ -1,0 +1,51 @@
+body {
+    background: rgb(227, 197, 151);
+    color: rgb(66, 66, 64);
+    text-align: center;
+
+}
+
+h1,
+h3 {
+    color: rgb(59, 9, 129);
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+p {
+    
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    // border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.cat-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.breedsImage {
+    display: block;
+    width: 800px;
+    height: auto;
+    padding: 15px;
+}
+
+.hidden {
+    display: none;
+    
+}
+
