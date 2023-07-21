@@ -41,7 +41,7 @@ window.addEventListener('load', () => {
 refs.selectBreedEl.addEventListener('change', eve => {
     fetchCatByBreed(refs.selectBreedEl.value)
         .then(({ catImg, catName, catDescription, catTemperament }) => {
-            refs.loaderEl.classList.remove('hiden');
+            refs.loaderEl.classList.remove('hidden');
             refs.catInfoEl.innerHTML = '';
             const html = `
             <div class="cat-img-container">
