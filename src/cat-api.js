@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// let axiosCatApi = null;
+let axiosCatApi = null;
 
 export function init(api_key) {
     axiosCatApi = require('axios').default;
