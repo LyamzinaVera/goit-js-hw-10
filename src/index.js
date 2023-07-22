@@ -9,7 +9,7 @@ const loader = document.querySelector('.loaderBox');
 const error = document.querySelector('.error');
 
 const apiKey =
-    'live_PpmnH5IM6AyK8355OfAWTEqraL0ErweE8bIZNFdVXultIMbcAr4oXGD4t5oJQfh8';
+    'live_z55WjvAGAh7pROthk2G4SBJQ37PjUMr9F3zheC37bkRcoYBQUQRisoqeAFiaN289 ';
 
 breedSelect.addEventListener('change', handleChange);
 breedSelect.classList.add('hidden');
