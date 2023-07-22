@@ -9,7 +9,8 @@ const loader = document.querySelector('.loaderBox');
 const error = document.querySelector('.error');
 
 const apiKey =
-    'live_PpmnH5IM6AyK8355OfAWTEqraL0ErweE8bIZNFdVXultIMbcAr4oXGD4t5oJQfh8'
+    'live_PpmnH5IM6AyK8355OfAWTEqraL0ErweE8bIZNFdVXultIMbcAr4oXGD4t5oJQfh8';
+
 breedSelect.addEventListener('change', handleChange);
 breedSelect.classList.add('hidden');
 error.classList.add('hidden');
